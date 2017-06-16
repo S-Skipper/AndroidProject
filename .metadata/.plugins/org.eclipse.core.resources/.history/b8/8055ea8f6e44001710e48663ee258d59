@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_gray"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal" >
+
+                <com.beardedhen.androidbootstrap.BootstrapButton
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/padding_medium"
+                    android:text="前一周"
+                    bootstrapbutton:bb_roundedCorners="true"
+                    bootstrapbutton:bb_text_gravity="center"
+                    bootstrapbutton:bb_type="primary" />
+
+                <com.beardedhen.androidbootstrap.BootstrapButton
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/padding_medium"
+                    android:text="后一周"
+                    bootstrapbutton:bb_roundedCorners="true"
+                    bootstrapbutton:bb_text_gravity="center"
+                    bootstrapbutton:bb_type="primary" />
+            </LinearLayout>
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/test_empty"
+                    style="@style/courseTableText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/course_text_view_bg"
+                    android:text="@string/empty" />
+
+                <TextView
+                    android:id="@+id/test_monday_course"
+                    style="@style/courseTableText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/test_empty"
+                    android:background="@drawable/course_text_view_bg"
+                    android:text="@string/mon" />
+
+                <TextView
+                    android:id="@+id/test_tuesday_course"
+                    style="@style/courseTableText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/test_monday_course"
+                    android:background="@drawable/course_text_view_bg"
+                    android:text="@string/tue" />
+
+                <TextView
+                    android:id="@+id/test_wednesday_course"
+                    style="@style/courseTableText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/test_tuesday_course"
+                    android:background="@drawable/course_text_view_bg"
+                    android:text="@string/wen" />
+
+                <TextView
+                    android:id="@+id/test_thursday_course"
+                    style="@style/courseTableText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/test_wednesday_course"
+                    android:background="@drawable/course_text_view_bg"
+                    android:text="@string/thu" />
+
+                <TextView
+                    android:id="@+id/test_friday_course"
+                    style="@style/courseTableText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/test_thursday_course"
+                    android:background="@drawable/course_text_view_bg"
+                    android:text="@string/fri" />
+
+                <TextView
+                    android:id="@+id/test_saturday_course"
+                    style="@style/courseTableText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/test_friday_course"
+                    android:background="@drawable/course_text_view_bg"
+                    android:text="@string/sta" />
+
+                <TextView
+                    android:id="@+id/test_sunday_course"
+                    style="@style/courseTableText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/test_saturday_course"
+                    android:background="@drawable/course_table_last_colum"
+                    android:text="@string/sun" />
+
+                <ScrollView
+                    android:id="@+id/scroll_body"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/test_empty"
+                    android:scrollbars="none" >
+
+                    <RelativeLayout
+                        android:id="@+id/test_course_rl"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+                    </RelativeLayout>
+                </ScrollView>
+            </RelativeLayout>
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/work_submit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/padding_medium"
+                android:text="提交"
+                android:visibility="gone"
+                bootstrapbutton:bb_roundedCorners="true"
+                bootstrapbutton:bb_text_gravity="center"
+                bootstrapbutton:bb_type="success" />
+
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

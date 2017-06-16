@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/titlebar_bg" >
+
+    <Button 
+        android:id="@+id/button_back"
+        android:layout_width="60dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/icon_title_back"
+        android:text="@string/back"
+        android:textColor="#fff"
+        />
+    <TextView 
+        android:id="@+id/textview_title"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:text="标题"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        />
+    <!-- <Button 
+        android:id="@+id/button_menu"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dip"
+        android:clickable="true"
+        android:background="@drawable/icon_title_menu"
+        android:textColor="#fff"
+        /> -->
+    
+</LinearLayout>

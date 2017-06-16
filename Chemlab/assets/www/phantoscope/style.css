@@ -1,0 +1,25 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background: #0d0c0c;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.05em;
+}
+canvas {
+    background: #0d0c0c;
+    width: 100%;
+    height: 100vh;
+}
+a {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    border: none;
+    background: rgba(13, 12, 12, .5);
+    color: #06e009;
+    padding: 0.5em;
+    text-decoration: none;
+}

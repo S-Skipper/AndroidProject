@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+	<dimen name="bottom_tab_padding_up">3.0dip</dimen>
+	<dimen name="bottom_tab_font_size">10.0dip</dimen>
+	<dimen name="personal_divider_margin">15.0dip</dimen>
+	<dimen name="drug_divider_margin">5.0dip</dimen>
+	<dimen name="activity_margin_top">20dp</dimen>
+
+</resources>

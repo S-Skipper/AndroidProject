@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="drawable" name="transparent">#00000000</item>
+	<item type="drawable" name="gray">#dddddd</item>
+	<item type="drawable" name="blue">#cc0c0c0c</item>
+	<item type="drawable" name="black">#2a3c2a</item>
+	<item type="drawable" name="bg_gray">#E0E3DA</item>
+	<item type="drawable" name="fg_white">#FFFFFF</item>
+	
+	<item type="drawable" name="griditems_bg">#ffe8ecef</item>
+	<item type="drawable" name="commo_text_color">#ff333333</item>
+	<item type="drawable" name="line">#E0E3DD</item>
+</resources>

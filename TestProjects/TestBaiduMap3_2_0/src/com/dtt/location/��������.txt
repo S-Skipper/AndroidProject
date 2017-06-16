@@ -1,0 +1,1 @@
+http://nominatim.openstreetmap.org/reverse?format=json&lat=40.714224&lon=-73.96145&zoom=18&addressdetails=1

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="1dp"
+    android:background="@drawable/bg_user_info"
+    android:orientation="horizontal" >
+
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+        android:id="@+id/person_item_icon_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        fontawesometext:fa_icon="fa-github"
+        android:textColor="@color/bbutton_warning" />
+
+    <TextView
+        android:id="@+id/person_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="left|center_vertical"
+        android:paddingRight="10dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/person_item_content"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:ellipsize="marquee"
+        android:textColor="@color/person_info"
+        android:textSize="12sp" />
+
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+        android:id="@+id/person_item_icon_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="16sp"
+        fontawesometext:fa_icon="fa-chevron-circle-right"
+        android:textColor="@color/person_info" />
+
+</LinearLayout>

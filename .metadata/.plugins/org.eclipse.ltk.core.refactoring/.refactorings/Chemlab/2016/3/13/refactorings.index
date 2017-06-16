@@ -1,0 +1,8 @@
+1458708465703	Rename type 'BaseActivity'
+1458708535515	Move compilation unit
+1458710687921	Extracts string '打电话' into R.string.call
+1458710697578	Extracts string '发短信' into R.string.send_message
+1458712461046	Extracts string '聊QQ' into R.string.chat_qq
+1458715599859	Extracts string '设置我的资料' into R.string.set_info
+1458717885984	Extracts string '提交' into R.string.submit
+1458718015078	Extracts string '修改联系方式' into R.string.update_contact_info

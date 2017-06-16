@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/layout_title"/>
+    
+    <Button 
+        android:id="@+id/drug_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询药品"
+        />
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新增药品"
+        />
+    
+        
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="编辑药品"
+        />
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除药品"
+        />
+
+</LinearLayout>

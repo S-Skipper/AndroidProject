@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/drug_divider_margin"
+                android:padding="5dp"
+                android:text="位置信息" />
+
+            <!-- id -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- counting 瓶数 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_counting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- position 位置编码 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- remain 零散量 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_scatter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- each 每瓶容量 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- loc_standard 单位-->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_standard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- 编辑人-->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_editor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- 编辑时间 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_edittime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

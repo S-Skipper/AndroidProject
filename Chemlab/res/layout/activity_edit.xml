@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <EditText
+        android:id="@+id/edit_value"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:singleLine="true"
+        android:textColor="@color/person_info"
+        android:background="@drawable/fg_white"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/edit_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:text="提交"
+        bootstrapbutton:bb_roundedCorners="false"
+        bootstrapbutton:bb_text_gravity="center"
+        bootstrapbutton:bb_type="success" />
+
+</LinearLayout>

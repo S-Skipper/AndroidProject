@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/drug_divider_margin"
+                android:padding="5dp"
+                android:text="搜索条件" />
+
+            <!-- 药品名称 -->
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:hint="药品名称"
+                bootstrapbutton:be_roundedCorners="false"
+                bootstrapbutton:be_state="warning" />
+
+            <!-- 起始日期 -->
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:hint="起始日期"
+                bootstrapbutton:be_roundedCorners="false"
+                bootstrapbutton:be_state="warning" />
+
+            <!-- 终止日期 -->
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:hint="终止日期"
+                bootstrapbutton:be_roundedCorners="false"
+                bootstrapbutton:be_state="warning" />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:text="搜索"
+                android:layout_gravity="center"
+                bootstrapbutton:bb_roundedCorners="true"
+                bootstrapbutton:bb_text_gravity="center"
+                bootstrapbutton:bb_type="success" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/drug_divider_margin"
+                android:padding="5dp"
+                android:text="搜索结果" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fg_white" >
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

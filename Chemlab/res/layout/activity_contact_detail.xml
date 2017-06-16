@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gray"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fg_white"
+                android:orientation="vertical" >
+
+                <com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/activity_margin_top"
+                    bootstrap:bct_image="@drawable/photo"
+                    bootstrap:bct_minimal="true"
+                    bootstrap:bct_size="large" />
+
+                <TextView
+                    android:id="@+id/person_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="欢迎欢迎"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/call_contact"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/activity_margin_top"
+                android:text="@string/call"
+                bootstrapbutton:bb_icon_left="fa-android"
+                bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+                bootstrapbutton:bb_roundedCorners="false"
+                bootstrapbutton:bb_type="default" />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/send_message"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/drug_divider_margin"
+                android:text="@string/send_message"
+                bootstrapbutton:bb_icon_left="fa-flask"
+                bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+                bootstrapbutton:bb_roundedCorners="false"
+                bootstrapbutton:bb_type="default" />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/call_QQ"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/drug_divider_margin"
+                android:text="@string/chat_qq"
+                bootstrapbutton:bb_icon_left="fa-question-circle"
+                bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+                bootstrapbutton:bb_roundedCorners="false"
+                bootstrapbutton:bb_type="default" />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/view_detail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="@dimen/drug_divider_margin"
+                android:text="查看详情"
+                bootstrapbutton:bb_icon_left="fa-android"
+                bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+                bootstrapbutton:bb_roundedCorners="false"
+                bootstrapbutton:bb_type="default" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

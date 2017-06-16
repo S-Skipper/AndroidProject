@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;ExpandListView Test&apos; into R.string.expandlistview_test" description="Extracts string &apos;ExpandListView Test&apos; into R.string.expandlistview_test" file="/TestExpandListView/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/TestExpandListView" rplc-all-java="false" rplc-all-xml="false" sel-end="464" sel-start="431" stamp="1467031347843" tok-esc="ExpandListView Test" xml-attr-name="android:text"/>
+</session>

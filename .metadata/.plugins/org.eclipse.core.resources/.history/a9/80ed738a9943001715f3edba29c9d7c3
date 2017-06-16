@@ -1,0 +1,48 @@
+package com.chemlab.activity;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+import com.chemlab.util.HttpCallbackListener;
+import com.chemlab.util.HttpUtil;
+import com.chemlab.util.LogUtil;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class SignResultActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+		
+		
+		
+		Calendar calendar = Calendar.getInstance();
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+		
+		String date_to = format.format(calendar.getTime());
+		calendar.add(Calendar.DATE, -31);
+		String date_from = format.format(calendar.getTime());
+		
+		HttpUtil.sendHttpRequest(
+				HttpUtil.ADDRESS_STUDENT_HANDLER,
+				HttpUtil.createJsonStr("GetSignInfoByID", "\"from\":\""
+						+ date_from + "\",\"to\":\"" + date_to
+						+ "\",\"find_id\":\"" + HttpUtil.ID + "\","),
+				new HttpCallbackListener() {
+
+					@Override
+					public void onFinish(String response) {
+						LogUtil.d("Tag", response);
+					}
+
+					@Override
+					public void onError(Exception e) {
+						
+					}
+
+				});
+	}
+}

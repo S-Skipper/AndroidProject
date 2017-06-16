@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>扫雷</title>
+    <link href="css.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="Mclear">
+        <div class="title">
+            <div id="time" class="bg fl">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+			<select id="restart" class="cur fl">
+				<option value="1">易</option>
+				<option value="2">中</option>
+				<option value="3">难</option>
+			</select>
+            <!-- <div id="restart" class="bg cur fl"></div> -->
+            <div id="tabnum" class="bg fl">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="shadow">
+            <canvas id="canvas"></canvas>
+            <!-- <div id="hint" class="animati2">
+                <div class="hbg">
+                    <div id="load">加载中...</div>
+                    <div id="text" style="display: none">
+                        <img src="images/defeat.gif" />
+                        <p>
+                            呀！踩到炸弹啦！<br />
+                            啊~~~
+                        </p>
+                        <br class="clear" />
+                        <span id="butt">再来一次！</span>
+                    </div>
+                    <div id="Difficu" style="display: none">
+                        <ul>
+                            <li><span onclick="Difficulty('简单')">简单</span></li>
+                            <li><span onclick="Difficulty('一般')">一般</span></li>
+                            <li><span onclick="Difficulty('困难')">困难</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+	
+    <script src="Mclear.js"></script>
+	<script>
+		window.onload = function () {
+		    Difficulty('简单');
+			document.getElementById("restart").onchange = function () {
+				//alert(this.value);
+				switch(this.value){
+				case '1':
+				    Difficulty('简单');
+				    break;
+				case '2':
+				    Difficulty('一般');
+				    break;
+				case '3':
+				    Difficulty('困难');
+				    break;
+				}
+			}
+		};
+	</script>
+</body>
+</html>

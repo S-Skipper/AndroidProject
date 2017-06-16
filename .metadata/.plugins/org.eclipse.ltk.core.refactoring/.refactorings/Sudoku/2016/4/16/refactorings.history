@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Sudoku/res/layout/activity_main.xml&apos; to &apos;key.xml&apos;" description="Rename resource &apos;activity_main.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/activity_main.xml" name="key.xml" stamp="1460379501062" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Sudoku/res/layout/key.xml&apos; to &apos;keypad.xml&apos;" description="Rename resource &apos;key.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/key.xml" name="keypad.xml" stamp="1460379516640" updateReferences="true"/>
+</session>

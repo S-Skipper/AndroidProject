@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            style="@style/headerLeftStyle"
+            android:src="@drawable/btn_back_g" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/line_gray" />
+
+</merge>

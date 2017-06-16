@@ -1,0 +1,15 @@
+1457100884281	Extracts string 'Change Text' into R.string.change_text
+1457100907750	Extracts string 'Hello world!' into R.string.hello_world_
+1457146441640	Rename type 'DownloadTask'
+1457146461796	Rename type 'AsyncTaskActivity'
+1457146541625	Rename type 'TestAsyncTaskActivity'
+1457149590312	Move compilation unit
+1457149597843	Move compilation unit
+1457149856203	Extracts string 'Start Service' into R.string.start_service
+1457149860468	Extracts string 'Stop Service' into R.string.stop_service
+1457151210718	Extracts string 'Bind Service' into R.string.bind_service
+1457151215906	Extracts string 'Unbind Service' into R.string.unbind_service
+1457151484062	Extracts string 'Start IntentService' into R.string.start_intentservice
+1457158796484	Extracts string 'Start Long Running Service' into R.string.start_timer_service
+1457158818875	Extracts string 'Stop Long Running Service' into R.string.stop_timer_service
+1457158995390	Extracts string 'Timer Service' into R.string.timer_service

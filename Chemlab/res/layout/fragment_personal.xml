@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrapthumbnail="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gray"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/id_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin_top"
+            android:background="@drawable/bg_user_info"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <com.beardedhen.androidbootstrap.BootstrapThumbnail
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                bootstrapthumbnail:bt_height="60dp"
+                bootstrapthumbnail:bt_image="@drawable/photo"
+                bootstrapthumbnail:bt_inside_padding="0dp"
+                bootstrapthumbnail:bt_width="60dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center|center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/id_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="黄老师"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/id_user_role"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="管理员"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textColor="@color/bbutton_info"
+                android:textSize="30sp"
+                fontawesometext:fa_icon="fa-user" />
+        </LinearLayout>
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/id_check_in"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="签到/签退"
+            bootstrapbutton:bb_icon_left="fa-cloud"
+            bootstrapbutton:bb_roundedCorners="false"
+            bootstrapbutton:bb_type="warning" />
+        
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/id_about_chemlab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/personal_divider_margin"
+            android:text="化学实验室"
+            bootstrapbutton:bb_icon_left="fa-cloud"
+            bootstrapbutton:bb_roundedCorners="false"
+            bootstrapbutton:bb_type="default" />
+        
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/id_setting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/personal_divider_margin"
+            android:text="设置"
+            bootstrapbutton:bb_icon_left="fa-cloud"
+            bootstrapbutton:bb_roundedCorners="false"
+            bootstrapbutton:bb_type="default" />
+        
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/id_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/personal_divider_margin"
+            android:text="反馈建议"
+            bootstrapbutton:bb_icon_left="fa-cloud"
+            bootstrapbutton:bb_roundedCorners="false"
+            bootstrapbutton:bb_type="default" />
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/id_quit_app"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="36dp"
+            android:text="退出应用"
+            bootstrapbutton:bb_icon_left="fa-cloud"
+            bootstrapbutton:bb_roundedCorners="false"
+            bootstrapbutton:bb_type="danger" />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+</ScrollView>

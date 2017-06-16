@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+   <RadioGroup
+        android:id="@+id/main_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/maintab_toolbar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_button1"
+            style="@style/main_tab_bottom"
+            android:checked="true"
+            android:layout_marginTop="2.0dip"
+            android:drawableTop="@drawable/icon_3_n"
+            android:text="@string/contacts" />
+
+        <RadioButton
+            android:id="@+id/radio_button2"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="2.0dip"
+            android:drawableTop="@drawable/icon_1_n"
+            android:text="@string/system_function" />
+
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestMultimedia</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="send_notice">Send Notice</string>
+    <string name="imageicon">imageIcon</string>
+    <string name="text">This is the PendingIntent layout</string>
+    <string name="to">To:</string>
+    <string name="from">From:</string>
+    <string name="send">Send</string>
+    <string name="content">Content:</string>
+    <string name="send_message">Send Message</string>
+    <string name="received_message">Received Message</string>
+    <string name="take_photo">Take photo</string>
+    <string name="picture">Picture</string>
+    <string name="choose_from_album">Choose from album</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="replay">Replay</string>
+    <string name="audio_player">Audio Player</string>
+    <string name="video_player">Video Player</string>
+
+</resources>

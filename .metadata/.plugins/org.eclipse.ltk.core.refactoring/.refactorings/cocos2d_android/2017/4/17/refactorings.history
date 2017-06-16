@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;cocos2d_android&apos;&#x0D;&#x0A;- Original project: &apos;cocos2d_android&apos;&#x0D;&#x0A;- Original element: &apos;cocos2d-android.jar&apos;" description="Delete element" element1="libs/cocos2d-android.jar" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1493180276781" subPackages="false" version="1.0"/>
+</session>

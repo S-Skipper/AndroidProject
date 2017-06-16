@@ -1,0 +1,14 @@
+package com.chemlab.activity;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class SignResultActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+		
+	}
+}

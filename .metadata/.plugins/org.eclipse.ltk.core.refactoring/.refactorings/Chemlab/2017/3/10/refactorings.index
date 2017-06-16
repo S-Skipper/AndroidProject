@@ -1,0 +1,32 @@
+1488775807921	Rename resource 'r1.png'
+1488775827218	Rename resource 'r2.png'
+1488775836218	Rename resource 'r3.png'
+1488775843734	Rename resource 'r4.png'
+1488804784468	Delete element
+1488854522671	Delete element
+1488857654046	Delete element
+1488858477734	Delete element
+1488864197203	Rename field 'ADDRESS_GET_CONTACT'
+1488864273359	Rename field 'ADDRESS_LOGIN'
+1488865964812	Delete element
+1488941531250	Copy compilation unit
+1488941537750	Copy compilation unit
+1488941699468	Delete element
+1489056611921	Delete element
+1489056669343	Rename resource 'bg.png'
+1489058209953	Extracts string '#E0E3DA' into R.string.bg_gray
+1489058501406	Delete elements
+1489132623078	Rename resource 'grid_item.xml'
+1489135160906	Rename resource 'bg_gv.xml'
+1489142343468	Delete element
+1489147401906	Rename resource 'circle_bg.png'
+1489147419890	Delete element
+1489147433343	Delete element
+1489147480359	Delete element
+1489147511531	Rename resource 'corners_bg.xml'
+1489149061234	Copy file
+1489209765906	Rename resource 'icon_im_chat_notepad.png'
+1489213556421	Rename resource 'layout_title.xml'
+1489213569140	Rename resource 'layout_radiobar.xml'
+1489216738531	Rename resource 'contact_detail_info.xml'
+1489219609296	Rename resource 'item_news_title.xml'

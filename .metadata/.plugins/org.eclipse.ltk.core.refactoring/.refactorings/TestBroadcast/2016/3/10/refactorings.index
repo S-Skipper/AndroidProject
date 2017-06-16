@@ -1,0 +1,12 @@
+1456979068062	Rename resource 'table_layout.xml'
+1456979152953	Extracts string 'Your name' into R.string.hint_name
+1456979163312	Extracts string 'Name' into R.string.name
+1456979172375	Extracts string 'Password' into R.string.password
+1456979205484	Extracts string 'Send' into R.string.send
+1456979454109	Delete element
+1456983478328	Extracts string 'Send Broadcast' into R.string.send_broadcast
+1456985632343	Extracts string 'Send Local Broadcast' into R.string.send_local_broadcast
+1456986407437	Extracts string 'Login' into R.string.send
+1456987242921	Extracts string 'Send force-offline Broadcast' into R.string.send_force_offline_broadcast
+1457003326484	Copy file
+1457003619781	Extracts string 'Remember password' into R.string.remember

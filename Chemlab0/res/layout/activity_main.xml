@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <include layout="@layout/menu_layout" />
+
+    <LinearLayout
+        android:id="@+id/content_son"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ccc"
+        android:orientation="vertical" >
+
+        <include layout="@layout/title_layout"/>
+        <FrameLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ccc">
+
+            <fragment
+                android:id="@+id/contact_fragment"
+                android:name="com.dtt.chemlab.fragment.ContactFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            
+            <fragment
+                android:id="@+id/function_fragment"
+                android:name="com.dtt.chemlab.fragment.FunctionFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </FrameLayout>
+
+        <include layout="@layout/radiobar_layout" />
+    </LinearLayout>
+
+</LinearLayout>

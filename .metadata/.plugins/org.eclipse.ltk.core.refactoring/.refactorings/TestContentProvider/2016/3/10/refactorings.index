@@ -1,0 +1,9 @@
+1457058534812	Delete element
+1457061785781	Rename type 'MainActivity'
+1457062158656	Extracts string 'Add To Book' into R.string.add_to_book
+1457062163734	Extracts string 'Query From Book' into R.string.query_from_book
+1457062167515	Extracts string 'Update Book' into R.string.update_book
+1457062171531	Extracts string 'Delete From Book' into R.string.delete_from_book
+1457062346421	Extracts string 'Here show the query result!' into R.string.hint_result
+1457064276437	Rename type 'MyProvider'
+1457064305296	Copy compilation unit

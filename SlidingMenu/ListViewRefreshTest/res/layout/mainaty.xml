@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white"
+    android:gravity="center">
+    
+<Button android:id="@+id/btn01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="001下拉刷新"
+    />
+<Button android:id="@+id/btn02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="002下拉上拉刷新"
+    android:layout_marginTop="20dp"
+    />
+<Button android:id="@+id/btn03"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="003下拉不刷新"
+    android:layout_marginTop="20dp"
+    />
+<Button android:id="@+id/btn04"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="002下拉上拉不刷新"
+    android:layout_marginTop="20dp"
+    />
+</LinearLayout>

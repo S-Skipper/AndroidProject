@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/dtt/menu2/BiuEditText.java" />
+        <ignore path="src/com/dtt/menu2/ColorArcProgressBar.java" />
+        <ignore path="src/com/github/jlmd/animatedcircleloadingview/component/InitialCenterCircleView.java" />
+        <ignore path="src/com/github/jlmd/animatedcircleloadingview/component/MainCircleView.java" />
+        <ignore path="src/com/github/jlmd/animatedcircleloadingview/component/SideArcsView.java" />
+        <ignore path="src/com/github/jlmd/animatedcircleloadingview/component/TopCircleBorderView.java" />
+        <ignore path="src/com/github/jlmd/animatedcircleloadingview/component/finish/FinishedView.java" />
+    </issue>
+</lint>

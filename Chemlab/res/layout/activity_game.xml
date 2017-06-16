@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/game_mine"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:text="扫雷"
+        bootstrapbutton:bb_icon_left="fa-cloud"
+        bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+        bootstrapbutton:bb_roundedCorners="false"
+        bootstrapbutton:bb_type="default" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/game_puzzle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/drug_divider_margin"
+        android:text="拼图"
+        bootstrapbutton:bb_icon_left="fa-cloud"
+        bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+        bootstrapbutton:bb_roundedCorners="false"
+        bootstrapbutton:bb_type="default" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/game_2048"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/drug_divider_margin"
+        android:text="2048游戏"
+        bootstrapbutton:bb_icon_left="fa-cloud"
+        bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+        bootstrapbutton:bb_roundedCorners="false"
+        bootstrapbutton:bb_type="default" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/game_phantoscope"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/drug_divider_margin"
+        android:text="万花筒"
+        bootstrapbutton:bb_icon_left="fa-cloud"
+        bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+        bootstrapbutton:bb_roundedCorners="false"
+        bootstrapbutton:bb_type="default" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/game_ptable"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/drug_divider_margin"
+        android:text="元素周期表"
+        bootstrapbutton:bb_icon_left="fa-cloud"
+        bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+        bootstrapbutton:bb_roundedCorners="false"
+        bootstrapbutton:bb_type="default" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/drug_divider_margin"
+        android:text="其他游戏"
+        bootstrapbutton:bb_icon_left="fa-cloud"
+        bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+        bootstrapbutton:bb_roundedCorners="false"
+        bootstrapbutton:bb_type="default" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/drug_divider_margin"
+                android:padding="5dp"
+                android:text="基本信息" />
+            
+            <!-- 试剂名 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/mix_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- 试剂单位 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/mix_standard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 注意事项 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/mix_attention"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/drug_divider_margin"
+                android:padding="5dp"
+                android:text="配方信息" />
+
+            <ListView 
+                android:id="@+id/mix_struct_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fg_white"
+                >
+                
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

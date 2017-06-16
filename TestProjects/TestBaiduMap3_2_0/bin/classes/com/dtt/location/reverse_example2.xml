@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<reversegeocode timestamp='Sun, 06 Mar 16 09:47:01 +0000' attribution='Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright' querystring='format=xml&amp;lat=52.5487429714954&amp;lon=-1.81602098644987&amp;zoom=18&amp;addressdetails=1'>
+	<result place_id="81118674" osm_type="way" osm_id="90394420" lat="52.54877605" lon="-1.81627023283164">
+		137, Pilkington Avenue, Castle Vale, Maney, 伯明翰, West Midlands, 英格蘭, B72 1LH, 英國
+	</result>
+	<addressparts>
+		<house_number>137</house_number>
+		<road>Pilkington Avenue</road>
+		<suburb>Castle Vale</suburb>
+		<hamlet>Maney</hamlet>
+		<city>伯明翰</city>
+		<state_district>West Midlands</state_district>
+		<state>英格蘭</state>
+		<postcode>B72 1LH</postcode>
+		<country>英國</country>
+		<country_code>gb</country_code>
+	</addressparts>
+</reversegeocode>

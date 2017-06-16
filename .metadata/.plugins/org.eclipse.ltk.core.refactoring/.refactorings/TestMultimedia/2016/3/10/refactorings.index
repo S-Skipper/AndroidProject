@@ -1,0 +1,22 @@
+1457073572062	Rename resource 'zc.png'
+1457074017843	Extracts string 'Send Notice' into R.string.send_notice
+1457075271234	Extracts string 'imageIcon' into R.string.imageicon
+1457075831437	Extracts string 'This is the PendingIntent layout' into R.string.text
+1457079272671	Rename resource 'andio'
+1457079302921	Rename resource 'audio'
+1457081667635	Extracts string 'To:' into R.string.to
+1457081678401	Extracts string 'From:' into R.string.from
+1457081685041	Extracts string 'Send' into R.string.send
+1457081861995	Extracts string 'Content:' into R.string.content
+1457084808151	Extracts string 'Send Message' into R.string.send_message
+1457084814573	Extracts string 'Received Message' into R.string.received_message
+1457085318760	Extracts string 'Take photo' into R.string.take_photo
+1457085335370	Extracts string 'Picture' into R.string.picture
+1457085427026	Extracts string 'Choose from album' into R.string.choose_from_album
+1457097159343	Rename resource 'audioplayer_layout.xml'
+1457097588125	Extracts string 'Play' into R.string.play
+1457097594406	Extracts string 'Pause' into R.string.pause
+1457097599953	Extracts string 'Stop' into R.string.stop
+1457097622203	Extracts string 'Replay' into R.string.replay
+1457097786484	Extracts string 'Audio Player' into R.string.audio_player
+1457097899687	Extracts string 'Video Player' into R.string.video_player

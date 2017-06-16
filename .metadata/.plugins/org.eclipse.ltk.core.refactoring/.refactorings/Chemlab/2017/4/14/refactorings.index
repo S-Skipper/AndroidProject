@@ -1,0 +1,131 @@
+1491106739265	Rename resource 'webview_layout.xml'
+1491107667546	Rename resource 'fragment_system_function.xml'
+1491109980250	Rename resource 'icon_title_btn.xml'
+1491109997046	Copy file
+1491120770515	Rename resource 'fragment_item.xml'
+1491120782984	Rename resource 'item_fragment_news.xml'
+1491121067843	Rename resource 'tab_indicator.xml'
+1491121078812	Rename resource 'selector_tabtext.xml'
+1491121107828	Rename resource 'base_action_bar_bg.9.png'
+1491121116890	Rename resource 'base_tabpager_indicator_selected.9.png'
+1491122785671	Rename resource 'base_action_bar_bg.9.png'
+1491122926109	Delete element
+1491123308406	Delete element
+1491123327078	Rename resource 'base_action_bar_bg.9.png'
+1491123800796	Delete elements
+1491123846859	Rename resource 'base_action_bar_bg.9.png'
+1491123855640	Rename resource 'base_tabpager_indicator_selected.9.png'
+1491123867640	Rename resource 'new_base_action_bar_bg.9.png'
+1491126491406	Rename type 'NewsActivity'
+1491126565796	Copy file
+1491126571796	Delete element
+1491126596734	Copy compilation units
+1491126610046	Delete elements
+1491126652656	Copy compilation unit
+1491126664468	Rename type 'TestNewsActivity'
+1491126827718	Rename resource 'news_base_action_bar_bg.9.png'
+1491126836968	Rename resource 'news_base_tabpager_indicator_selected.9.png'
+1491126846343	Rename resource 'news_tab_indicator.xml'
+1491126854718	Rename resource 'news_selector_tabtext.xml'
+1491126880906	Rename resource 'item_news_fragment.xml'
+1491126898578	Copy file
+1491126911140	Rename resource 'activity_news.xml'
+1491126923812	Rename resource 'activity_news1.xml'
+1491126973421	Rename type 'TestNewsActivity'
+1491130500515	Rename type 'NewsActivity'
+1491130533125	Copy compilation unit
+1491130548500	Rename type 'NewsShowActivity'
+1491136084765	Copy file
+1491136114781	Rename resource 'activity_news.xml'
+1491136130890	Rename resource 'activity_news1.xml'
+1491136139406	Rename resource 'activity_newslist.xml'
+1491137265859	Copy file
+1491186705562	Encapsulate field 'address'
+1491188934250	Delete elements
+1491195102750	Encapsulate field 'showType'
+1491201413562	Delete element
+1491201492906	Rename resource 'system_assistent.xml'
+1491205175921	Delete element
+1491205194812	Delete elements
+1491205205750	Delete element
+1491205213468	Delete element
+1491205251453	Delete element
+1491206865718	Copy compilation unit
+1491214260875	Delete element
+1491214269562	Delete element
+1491214277406	Delete element
+1491218348125	Copy file
+1491219214890	Copy compilation unit
+1491219368578	Copy compilation unit
+1491219455843	Copy file
+1491227735265	Move compilation unit
+1491278763937	Copy compilation unit
+1491279128359	Copy file
+1491279155687	Rename resource 'Copy of view_banner_image.xml'
+1491279453125	Encapsulate field 'iconLeft'
+1491279456968	Encapsulate field 'iconRight'
+1491279515093	Encapsulate field 'titleText'
+1491279518484	Encapsulate field 'contentTextView'
+1491282770234	Encapsulate field 'create_time'
+1491282805750	Encapsulate field 'last_time'
+1491282824828	Encapsulate field 'weChatNumber'
+1491282984625	Encapsulate field 'idebtity'
+1491288165015	Move files
+1491289465328	Delete element
+1491289507078	Rename resource 'wanhuatong'
+1491291596078	Delete element
+1491291605046	Delete element
+1491292031609	Move compilation unit
+1491292722656	Copy file
+1491315243953	Rename resource 'test.html'
+1491366681875	Rename resource 'ggfly'
+1491366946515	Copy file
+1491367331750	Copy file
+1491367662812	Copy file
+1491368370187	Copy compilation unit
+1491370459250	Copy compilation unit
+1491370484296	Copy file
+1491370555343	Copy compilation unit
+1491370593406	Copy file
+1491373116671	Delete elements
+1491373129515	Rename resource 'mine.html'
+1491375325687	Delete elements
+1491376171703	Delete elements
+1491376332093	Delete element
+1491377043593	Delete elements
+1491377185328	Delete element
+1491377221375	Delete elements
+1491377887468	Delete elements
+1491378514656	Delete element
+1491378560484	Rename resource 'Puzzle'
+1491378943265	Delete element
+1491379869437	Move file
+1491380191562	Delete elements
+1491382532296	Rename resource 'delete.png'
+1491389494296	Delete element
+1491389568859	Delete element
+1491400385468	Delete elements
+1491400981281	Delete elements
+1491401248640	Delete elements
+1491402959875	Delete element
+1491403372546	Rename resource '元素周期表'
+1491614476375	Rename resource 'system_open.xml'
+1491614521218	Rename type 'OpenSystemActivity'
+1491614904062	Rename resource 'v1_app3.png'
+1491614928062	Rename resource 'v2_app3.png'
+1491614987046	Rename resource 'v1_app5.png'
+1491614995453	Rename resource 'v1_app4.png'
+1491615008203	Rename resource 'v1_app45.png'
+1491615052234	Rename resource 'v2_app4.png'
+1491615063140	Rename resource 'v2_app5.png'
+1491615389218	Rename resource 'v1_app5.png'
+1491615408328	Rename resource 'v1_app4.png'
+1491615420625	Rename resource 'v1_app55.png'
+1491625281328	Rename resource 'setting_about_me.png'
+1491626545843	Delete elements
+1491626580593	Delete elements
+1491626850468	Delete element
+1491633364812	Encapsulate field 'phoneShort'
+1491634531109	Copy compilation unit
+1491635175484	Copy file
+1491644618078	Move compilation unit

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/reset_pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:text="修改密码"
+        bootstrapbutton:bb_icon_left="fa-cloud"
+        bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+        bootstrapbutton:bb_roundedCorners="false"
+        bootstrapbutton:bb_type="default" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/about_app"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/personal_divider_margin"
+        android:text="关于"
+        bootstrapbutton:bb_icon_left="fa-cloud"
+        bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+        bootstrapbutton:bb_roundedCorners="false"
+        bootstrapbutton:bb_type="default" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/quit_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/personal_divider_margin"
+        android:text="退出登录"
+        bootstrapbutton:bb_icon_left="fa-cloud"
+        bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+        bootstrapbutton:bb_roundedCorners="false"
+        bootstrapbutton:bb_type="danger" />
+
+</LinearLayout>

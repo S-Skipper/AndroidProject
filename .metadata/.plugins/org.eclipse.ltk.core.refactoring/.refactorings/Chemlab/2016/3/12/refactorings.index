@@ -1,0 +1,26 @@
+1457846077281	Rename resource 'main.xml'
+1457931846968	Move compilation units
+1457932004046	Delete element
+1457932483953	Rename resource 'tabbar_test_layout.xml'
+1458268928187	Extracts string '联系人' into R.string.contacts
+1458268990000	Extracts string '系统功能' into R.string.system_function
+1458279997375	Copy compilation unit
+1458281167781	Rename resource 'login_layout.xml'
+1458282053718	Copy file
+1458282057453	Copy file
+1458282367531	Delete element
+1458282375312	Rename type 'LoginActivity2'
+1458287136906	Delete element
+1458287143390	Delete element
+1458287146484	Delete element
+1458287174968	Delete element
+1458287208953	Delete elements
+1458287217890	Delete element
+1458287229015	Delete element
+1458287235296	Delete element
+1458287267437	Delete element
+1458287271609	Delete element
+1458287275468	Delete element
+1458287279734	Delete element
+1458287293593	Delete element
+1458295269468	Encapsulate field 'imageId'

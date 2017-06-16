@@ -1,0 +1,63 @@
+// Generated code from Butter Knife. Do not modify!
+package com.app.lll.fragment;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.ViewBinder;
+
+public class CourseTable$$ViewBinder<T extends com.app.lll.fragment.CourseTable> implements ViewBinder<T> {
+  @Override public void bind(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131165213, "field 'mUserCourseLayout'");
+    target.mUserCourseLayout = finder.castView(view, 2131165213, "field 'mUserCourseLayout'");
+    view = finder.findRequiredView(source, 2131165209, "field 'scrollView'");
+    target.scrollView = finder.castView(view, 2131165209, "field 'scrollView'");
+    view = finder.findRequiredView(source, 2131165211, "field 'timeLayout'");
+    target.timeLayout = finder.castView(view, 2131165211, "field 'timeLayout'");
+    view = finder.findRequiredView(source, 2131165186, "field 'mMonth'");
+    target.mMonth = finder.castView(view, 2131165186, "field 'mMonth'");
+    view = finder.findRequiredView(source, 2131165210, "field 'courseTableLayout'");
+    target.courseTableLayout = finder.castView(view, 2131165210, "field 'courseTableLayout'");
+    view = finder.findRequiredView(source, 2131165212, "field 'courseLayout'");
+    target.courseLayout = finder.castView(view, 2131165212, "field 'courseLayout'");
+    target.mTextViews = Finder.listOf(
+        finder.<android.widget.TextView>findRequiredView(source, 2131165188, "field 'mTextViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165191, "field 'mTextViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165194, "field 'mTextViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165197, "field 'mTextViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165200, "field 'mTextViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165203, "field 'mTextViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165206, "field 'mTextViews'")
+    );
+    target.mLayouts = Finder.listOf(
+        finder.<android.widget.LinearLayout>findRequiredView(source, 2131165187, "field 'mLayouts'"),
+        finder.<android.widget.LinearLayout>findRequiredView(source, 2131165190, "field 'mLayouts'"),
+        finder.<android.widget.LinearLayout>findRequiredView(source, 2131165193, "field 'mLayouts'"),
+        finder.<android.widget.LinearLayout>findRequiredView(source, 2131165196, "field 'mLayouts'"),
+        finder.<android.widget.LinearLayout>findRequiredView(source, 2131165199, "field 'mLayouts'"),
+        finder.<android.widget.LinearLayout>findRequiredView(source, 2131165202, "field 'mLayouts'"),
+        finder.<android.widget.LinearLayout>findRequiredView(source, 2131165205, "field 'mLayouts'")
+    );
+    target.mWeekViews = Finder.listOf(
+        finder.<android.widget.TextView>findRequiredView(source, 2131165189, "field 'mWeekViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165192, "field 'mWeekViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165195, "field 'mWeekViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165198, "field 'mWeekViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165201, "field 'mWeekViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165204, "field 'mWeekViews'"),
+        finder.<android.widget.TextView>findRequiredView(source, 2131165207, "field 'mWeekViews'")
+    );
+  }
+
+  @Override public void unbind(T target) {
+    target.mUserCourseLayout = null;
+    target.scrollView = null;
+    target.timeLayout = null;
+    target.mMonth = null;
+    target.courseTableLayout = null;
+    target.courseLayout = null;
+    target.mTextViews = null;
+    target.mLayouts = null;
+    target.mWeekViews = null;
+  }
+}

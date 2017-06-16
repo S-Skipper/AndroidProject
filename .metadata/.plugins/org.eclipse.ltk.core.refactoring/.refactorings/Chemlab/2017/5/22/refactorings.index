@@ -1,0 +1,22 @@
+1495969618062	Delete element
+1495969622468	Delete element
+1495970200109	Copy compilation unit
+1495970214140	Delete element
+1495970418203	Delete element
+1495970449328	Copy compilation unit
+1495970454234	Delete element
+1495971309203	Copy file
+1496017890015	Copy file
+1496017904359	Rename resource 'item_2_col.xml'
+1496018380843	Rename resource 'activity_sign_result.xml'
+1496018979203	Rename resource 'activity_list_2.xml'
+1496019194718	Copy compilation unit
+1496019949921	Copy compilation unit
+1496020286718	Encapsulate field 'time_id'
+1496020298906	Encapsulate field 'ID'
+1496020316062	Encapsulate field 'name'
+1496020320718	Encapsulate field 'date_time'
+1496020323796	Encapsulate field 'state'
+1496020536343	Rename type 'ListTwoAdapter'
+1496056566609	Rename type 'SignInfo'
+1496056655640	Rename method 'getSignInfoArray'

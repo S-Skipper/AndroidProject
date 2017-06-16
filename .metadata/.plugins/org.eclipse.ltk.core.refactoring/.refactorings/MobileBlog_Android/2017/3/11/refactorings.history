@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HttpCommunicationBitmap.java&apos; to &apos;Chemlab/src/com.chemlab.util&apos;&#x0D;&#x0A;- Original project: &apos;MobileBlog_Android&apos;&#x0D;&#x0A;- Destination element: &apos;Chemlab/src/com.chemlab.util&apos;&#x0D;&#x0A;- Original element: &apos;com.sample.connection.HttpCommunicationBitmap.java&apos;" description="Copy compilation unit" destination="=Chemlab/src&lt;com.chemlab.util" element1="/src&lt;com.sample.connection{HttpCommunicationBitmap.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1489474004265" units="1" version="1.0"/>
+</session>

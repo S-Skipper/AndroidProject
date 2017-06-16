@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">ideasandroid团队演示程序!欢迎访问http://www.ideasandroid.com</string>
+    <string name="app_name">FloatSearchBoxDemo</string>
+    <string name="searchMenu">查询</string>
+    <string name="searchLabel">查询</string>
+    <string name="searchHint">请输入查询内容</string>
+</resources>

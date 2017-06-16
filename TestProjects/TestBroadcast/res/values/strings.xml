@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestBroadcast</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_name">Your name</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="send_broadcast">Send Broadcast</string>
+    <string name="send_local_broadcast">Send Local Broadcast</string>
+    <string name="send_force_offline_broadcast">Send force-offline Broadcast</string>
+    <string name="remember">Remember password</string>
+
+</resources>

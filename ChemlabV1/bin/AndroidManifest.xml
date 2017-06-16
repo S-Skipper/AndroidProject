@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dtt.chemlab"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name="com.dtt.chemlab.util.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.dtt.chemlab.activity.MainActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name" >
+            <!-- android:name="com.dtt.chemlab.activity.CBCActivity" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".SearchResultActivity" /> -->
+        </activity>
+        <activity android:name="com.dtt.chemlab.activity.LoginActivity" >
+        </activity>
+        <activity android:name="com.dtt.chemlab.activity.TestActivity" >
+        </activity>
+        <activity android:name="com.dtt.chemlab.activity.ContactActivity" >
+        </activity>
+        <activity android:name="com.dtt.chemlab.activity.UpdateContactActivity" >
+        </activity>
+        <activity android:name="com.dtt.chemlab.activity.SearchActivity" >
+        </activity>
+        <activity android:name="com.dtt.chemlab.systems.DrugSystemActivity" >
+        </activity>
+        <activity android:name="com.dtt.chemlab.systems.AssistentSystemActivity" >
+        </activity>
+        
+        <!-- <activity
+            android:name="SearchResultActivity"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" >
+            </meta-data>
+        </activity>
+        
+        <provider
+            android:name="SearchSuggestionSampleProvider"
+            android:authorities="com.android.cbin.SearchSuggestionSampleProvider" >
+        </provider> -->
+    </application>
+
+</manifest>

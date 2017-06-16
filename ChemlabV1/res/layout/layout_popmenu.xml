@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_popmenu"
+    android:orientation="vertical"
+    android:paddingTop="25dp" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_popmenu_item"
+        android:drawableLeft="@drawable/icon_search_w"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="扫一扫" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_popmenu_item"
+        android:drawableLeft="@drawable/icon_search_w"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="探索" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_popmenu_item"
+        android:drawableLeft="@drawable/icon_search_w"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="找一找" />
+
+</LinearLayout>

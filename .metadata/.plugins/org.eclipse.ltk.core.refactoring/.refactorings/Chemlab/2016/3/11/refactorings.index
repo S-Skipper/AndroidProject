@@ -1,0 +1,37 @@
+1457417966453	Rename resource 'buttonNegt.png'
+1457418103687	Rename resource 'eid_qihoo_pay_frame_img_loading_small_board.png'
+1457418111593	Delete element
+1457418198156	Rename resource 'qp_wallet_toast_frame.9.png'
+1457418367875	Delete element
+1457418372875	Delete element
+1457418380718	Delete element
+1457418511734	Rename resource 'com.tencent.plus.gray_down.png'
+1457418528109	Rename resource 'title_bar.png'
+1457418604703	Delete element
+1457418627312	Rename resource 'msdk_thrdcall_toolbar_back_bkg.9.png'
+1457418661906	Extracts string 'Back' into R.string.back
+1457418677265	Extracts string 'Title Text' into R.string.title_text
+1457419682312	Extracts string '记住密码' into R.string.remember_password
+1457419688671	Extracts string 'Login' into R.string.login
+1457419692000	Extracts string 'Register' into R.string.register
+1457419723062	Extracts string '登录' into R.string.login
+1457419733171	Extracts string '注册' into R.string.register
+1457420606546	Delete element
+1457420620921	Rename resource 'a3q.png'
+1457420753140	Rename resource 'activity_login.xml'
+1457420769578	Rename resource 'title.xml'
+1457437003734	Extracts string '账号' into R.string.hint_account
+1457437015000	Extracts string '密码' into R.string.hint_password
+1457593665906	Move compilation units
+1457593788578	Delete element
+1457593846000	Rename type 'MainActivity'
+1457593859687	Move compilation unit
+1457593908000	Rename package 'com.dtt.chemlab'
+1457594056328	Rename resource 'activity_main.xml'
+1457594076171	Move file
+1457772545203	Delete element
+1457775044906	Rename type 'BaseActivity'
+1457775061421	Rename type 'MainActivity'
+1457775406734	Copy file
+1457777928031	Rename resource 'fq.jpg'
+1457778772390	Rename resource 'tabbar_layout.xml'

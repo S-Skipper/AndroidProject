@@ -1,0 +1,83 @@
+1491707068046	Copy file
+1491739049765	Copy compilation unit
+1491739088625	Copy file
+1491801590265	Copy file
+1491803262828	Delete elements
+1491803295734	Delete element
+1491803309406	Rename resource 'bg_search.9.png'
+1491803316093	Move file
+1491803340671	Rename resource 'searchbar.png'
+1491803343953	Move file
+1491803347671	Move file
+1491803369734	Delete element
+1491803377703	Rename resource 'gom.png'
+1491803434125	Move file
+1491803448343	Move files
+1491803459531	Move files
+1491803476437	Move file
+1491803509531	Move files
+1491804775984	Copy file
+1491806755906	Delete element
+1491895298265	Rename resource 'activity_search.xml'
+1491895308578	Copy file
+1491895574015	Rename type 'SearchActivity'
+1491895586593	Copy compilation unit
+1491896108484	Delete element
+1491898874406	Delete element
+1491898881093	Delete element
+1491972826625	Move compilation unit
+1491972847640	Move compilation unit
+1491972866890	Move compilation unit
+1491972911781	Move compilation unit
+1491973101500	Move compilation unit
+1491973120312	Move compilation unit
+1491973129640	Move compilation unit
+1491973234046	Delete elements
+1491973254250	Move compilation unit
+1491973258328	Delete element
+1491973734921	Copy file
+1491973958109	Copy file
+1491974088031	Delete element
+1491974184515	Delete element
+1491974661796	Delete element
+1491983955125	Rename type 'NewsManager'
+1491986263156	Copy compilation unit
+1491986418140	Encapsulate field 'mix_name'
+1491986421937	Encapsulate field 'attention'
+1491986425343	Encapsulate field 'standard'
+1491986731703	Rename type 'Drug_Mix'
+1491987669656	Copy compilation unit
+1491987804312	Copy file
+1491989057765	Copy compilation unit
+1491989083562	Copy file
+1491990792046	Copy file
+1491991364703	Copy compilation unit
+1491993257500	Copy file
+1491993617437	Rename type 'PersonView'
+1491993899890	Copy compilation unit
+1491998393796	Delete element
+1492000192218	Encapsulate field 'name'
+1492000195875	Encapsulate field 'model'
+1492000198968	Encapsulate field 'price'
+1492000201859	Encapsulate field 'factory'
+1492000205281	Encapsulate field 'detail'
+1492000247359	Rename type 'Loc'
+1492000264390	Copy compilation unit
+1492000566687	Encapsulate field 'name'
+1492000569734	Encapsulate field 'PPE'
+1492000573171	Encapsulate field 'factory_NO'
+1492000576203	Encapsulate field 'time_buying'
+1492000579453	Encapsulate field 'oprator'
+1492000582875	Encapsulate field 'position'
+1492000586875	Encapsulate field 'state'
+1492000589796	Encapsulate field 'state_explane'
+1492000593125	Encapsulate field 'edit_time'
+1492057777359	Copy compilation unit
+1492058353875	Copy compilation unit
+1492058454625	Encapsulate field 'prop1'
+1492058457515	Encapsulate field 'name'
+1492058460703	Encapsulate field 'prop2'
+1492077373562	Copy compilation unit
+1492077397562	Copy compilation unit
+1492077437781	Copy file
+1492077496187	Copy file

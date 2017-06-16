@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/drug_divider_margin"
+                android:padding="5dp"
+                android:text="基本信息" />
+
+            <!-- 药品名 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- CAS号 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_cas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 药品别名 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_alt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 药品英文名 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_englishname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 药品分子式 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_formula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 药品分子量 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 危险性 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_danger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 数量 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 单位 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_standard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 详细 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!-- 编辑人 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_editor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- 编辑时间 -->
+
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/drug_edittime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/view_drug_loc"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/personal_divider_margin"
+                android:text="查看位置信息"
+                bootstrapbutton:bb_icon_left="fa-cloud"
+                bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+                bootstrapbutton:bb_roundedCorners="false"
+                bootstrapbutton:bb_type="default" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

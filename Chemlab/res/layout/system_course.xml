@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/activity_title"/>
+    
+    <Button 
+        android:id="@+id/assist_view_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:text="查看课程"
+        />
+    
+    <Button 
+        android:id="@+id/assist_write_thinking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="详情查看"
+        />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Acceleration Example</title>
+	
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script type="text/javascript" charset="utf-8">
+
+	// watch id 是当前“watchAcceleration”的引用
+	var watchID = null;
+	
+	// 等待加载PhoneGap
+	document.addEventListener("deviceready", onDeviceReady, false);
+	
+	// PhoneGap加载完毕
+	function onDeviceReady() {
+		initStartWatch();
+	}
+	//获取当前的加速度
+	function initStartWatch(){
+	   navigator.accelerometer.getCurrentAcceleration(onInitSuccess, onError);
+	}
+	function onInitSuccess(acceleration){
+	var element = document.getElementById('nowaccelerometer');
+		element.innerHTML = '加速度 X轴: ' + acceleration.x + '<br />' +
+							'加速度 Y轴: ' + acceleration.y + '<br />' +
+							'加速度 Z轴: ' + acceleration.z + '<br />' +
+							'时间戳: '      + acceleration.timestamp + '<br />';
+	}
+	// 开始监视加速度
+	function startWatch() {
+	// 每隔1秒钟更新一次加速度数据
+	var options = { frequency: 1000 };
+	watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, options);
+	}
+	
+	// 停止监视加速度
+	function stopWatch() {
+		if (watchID) {
+		    //清除加速度检测
+			navigator.accelerometer.clearWatch(watchID);
+			watchID = null;
+		}
+	}
+	
+	// onSuccess: 获取当前加速度数据的快照
+	function onSuccess(acceleration) {
+		var element = document.getElementById('accelerometer');
+		element.innerHTML = '加速度 X轴: ' + acceleration.x + '<br />' +
+							'加速度 Y轴: ' + acceleration.y + '<br />' +
+							'加速度 Z轴: ' + acceleration.z + '<br />' +
+							'时间戳: '      + acceleration.timestamp + '<br />';
+	}
+	
+	// onError: 获取加速度失败
+	function onError() {
+		alert('onError!');
+	}
+	
+</script>
+</head>
+<body>
+    <div>当前加速度值(启动程序的瞬时值)</div>
+    <div id="nowaccelerometer"></div>
+    <div>1秒刷新一次的加速度值</div>
+	<div id="accelerometer"></div>
+    <button onclick="startWatch();">开始</button>
+	<button onclick="stopWatch();">停止</button>
+	
+</body>
+</html>

@@ -1,0 +1,74 @@
+1466906129062	Delete element
+1466908953093	Move compilation unit
+1466908957140	Move compilation unit
+1466920904140	Encapsulate field 'ArticleID'
+1466920909734	Encapsulate field 'Title'
+1466920913000	Encapsulate field 'Content_1'
+1466920915843	Encapsulate field 'DateTime'
+1466920918875	Encapsulate field 'Member_Name'
+1466922736484	Encapsulate field 'id'
+1466922777640	Encapsulate field 'newsBody'
+1466923298328	Encapsulate field 'Hits'
+1466923301359	Encapsulate field 'type'
+1466923304109	Encapsulate field 'infor'
+1466942897015	Delete element
+1466943047234	Rename resource 'universal-image-loader-1.8.4.jar'
+1466943277984	Delete element
+1466943532859	Rename type 'BannerLayout'
+1466944762937	Delete element
+1466944766328	Delete element
+1467005146390	Extracts string '搜索' into R.string.search
+1467006955625	Encapsulate field 'drug_name'
+1467006959968	Encapsulate field 'drug_another_name'
+1467006963890	Encapsulate field 'fen_zi_shi'
+1467006966937	Encapsulate field 'counting'
+1467006969625	Encapsulate field 'standard'
+1467007859718	Encapsulate field 'id'
+1467007868812	Encapsulate field 'position'
+1467007872187	Encapsulate field 'remain'
+1467007875593	Encapsulate field 'loc_standard'
+1467007878078	Encapsulate field 'each'
+1467007880859	Encapsulate field 'people'
+1467007883500	Encapsulate field 'edit_time'
+1467008998562	Encapsulate field 'drug_name'
+1467009001968	Encapsulate field 'counting'
+1467113164656	Delete element
+1467115272906	Delete element
+1467119256437	Rename package 'com.dtt.chemlab.system'
+1467121464031	Rename resource 'layout_search.xml'
+1467121497140	Rename resource 'login_layout.xml'
+1467121555765	Rename resource 'update_contact_layout.xml'
+1467121649093	Rename resource 'news_fragment.xml'
+1467121673562	Rename resource 'system_function.xml'
+1467121688343	Rename resource 'system_function2.xml'
+1467121721781	Delete element
+1467121816609	Rename resource 'radiobar_layout.xml'
+1467121829250	Rename resource 'title_layout.xml'
+1467121851187	Rename resource 'news_title_item.xml'
+1467121866343	Rename resource 'circle_menu_item.xml'
+1467121881890	Rename resource 'contact_item.xml'
+1467121913109	Rename resource 'banner_image.xml'
+1467121924500	Rename resource 'pull_to_refresh.xml'
+1467122162062	Delete element
+1467122987078	Rename resource 'home_icon_update.xml'
+1467123062015	Rename resource 'home_btn_bg.xml'
+1467123081187	Rename resource 'title_btn.xml'
+1467123298359	Rename resource 'bg_popmenu.xml'
+1467123519609	Rename resource 'icon_search.png'
+1467123532796	Rename resource 'icon_search1.png'
+1467123653156	Rename resource 'body_bg.png'
+1467123668531	Rename resource 'cardbg.png'
+1467123688500	Rename resource 'search_bg.9.png'
+1467123754671	Rename resource 'account_icon.png'
+1467123768390	Rename resource 'password_icon.png'
+1467124117187	Rename resource 'menu_layout.xml'
+1467124131234	Rename resource 'popmenu_layout.xml'
+1467130863453	Delete element
+1467132207359	Delete element
+1467193261375	Rename type 'FunctionFragment'
+1467193315421	Move compilation unit
+1467193328890	Move compilation unit
+1467193342421	Move compilation unit
+1467193347578	Move compilation unit
+1467281843703	Rename resource 'activity_base.xml'
+1467281926125	Rename field 'resultList'

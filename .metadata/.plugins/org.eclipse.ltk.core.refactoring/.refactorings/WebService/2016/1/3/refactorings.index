@@ -1,0 +1,4 @@
+1452491942906	Extracts string 'a+b=?' into R.string.title
+1452491973375	Extracts string 'a' into R.string.a
+1452491980140	Extracts string 'b' into R.string.b
+1452491995750	Extracts string '查询' into R.string.query

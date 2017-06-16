@@ -1,0 +1,10 @@
+1456814158593	Rename type 'MainActivity'
+1456814276765	Extracts string 'Button1' into R.string.button1
+1456814311593	Copy file
+1456814331140	Rename resource 'activity_main.xml'
+1456814655046	Extracts string 'Button2' into R.string.button2
+1456816583828	Copy file
+1456816656140	Extracts string 'Button3' into R.string.button3
+1456828084281	Extracts string 'About' into R.string.about
+1456828088875	Extracts string 'Quit' into R.string.quit
+1456985224203	Copy compilation units

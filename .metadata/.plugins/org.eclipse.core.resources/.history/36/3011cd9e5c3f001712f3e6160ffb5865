@@ -1,0 +1,55 @@
+package com.chemlab.activity;
+
+import com.chemlab.R;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class LoginActivity extends Activity{
+
+	public static final int SUCCEESS = 1;
+	public static final int FAIL = 2;
+	
+	private EditText nameText;
+	private EditText passText;
+	private Button loginButton;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_login);
+		
+		nameText = (EditText) findViewById(R.id.loginName);
+		passText = (EditText) findViewById(R.id.loginPasswd);
+		loginButton = (Button) findViewById(R.id.btLogin);
+		
+		loginButton.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				final String name = nameText.getText().toString();
+				final String pass = passText.getText().toString();
+				
+				if ("".equals(name)||"".equals(pass)) {
+					Toast.makeText(LoginActivity.this, "Please Input Complemetely!", 
+		                     Toast.LENGTH_SHORT).show();
+				}else {
+					login(name,pass);
+				}
+				
+			}
+		});
+	}
+	
+	public static void login(String id,String pw){
+		String jsonString="json={" +
+				"\"type\":\"Login\"," +
+				"\"id\":\""+id+"\"," +
+				"\"pw\":\""+pw+"\"}";
+		
+	}
+}

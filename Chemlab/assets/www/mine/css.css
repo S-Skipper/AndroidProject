@@ -1,0 +1,39 @@
+﻿body{margin:0;padding:0;background:url(images/bg.png);}
+p,ul{margin:0;padding:0;}
+li{list-style-type:none;}
+
+.bg{background:url(images/restart.png);}
+.cur{cursor:pointer;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both}
+
+#canvas{display: inherit;}
+
+#Mclear {width: 300px;margin: 0 auto;padding:15px;line-height:40px;}
+#Mclear .title{height:40px;margin-bottom:15px;padding: 0 10px;}
+
+#time,#tabnum{width: 65px;height: 26px;background-position-y: -40px;margin-top: 6px;padding: 2px 0 0 5px;}
+#time span,#tabnum span{background:url(images/restart.png);float:left;width:20px;height:24px;background-position-y:-176px;}
+
+#restart{width: 40px;height: 40px;margin: 0 50px;}
+#restart:active{background-position-x:-40px;}
+
+#shadow {box-shadow: 0px 1px 1px #a5a5a5 inset;border-bottom: solid 1px #f3f3f3;background: #e9e9e9;position:absolute;}
+
+#hint{background:#fff;position:absolute;top:50%;left:50%;-moz-transition: all 0.3s ease-in;-webkit-transition: all 0.3s ease-in;-o-transition: all 0.3s ease-in;transition: all 0.3s ease-in;overflow:hidden;}
+#hint .hbg{background:url(images/bg2.png);box-shadow: 0px 0px 20px #d5d5d5 inset;text-shadow: 0px 1px 1px #fff;text-align:center;}
+#text{padding:20px 0 0 20px;}
+#hint .hbg img{float:left;margin-right:15px;}
+#hint .hbg p{float:left;line-height:25px;font-size: 15px;color: #ef8325;text-align:left;}
+#butt{text-align:center;cursor:pointer;font-size: 15px;color: #ef8325;}
+#Difficu{text-align:center;padding:10px 0 10px 0;}
+#Difficu li{line-height:30px;}
+#Difficu span{cursor:pointer;font-size: 15px;color: #ef8325;}
+
+#load{height: 111px;line-height:111px;color: #ef8325;}
+
+.animati1{width:0px;height: 0px;border-radius:0px;box-shadow: 0px 0px 0px #ababab;opacity:0;}
+.animati2{width:230px;height: 111px;margin-left: -115px;margin-top: -57px;opacity:1;border-radius:15px;box-shadow: 0px 1px 7px #ababab;}
+
+

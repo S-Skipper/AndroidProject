@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/drug_divider_margin"
+                android:padding="5dp"
+                android:text="位置信息" />
+            
+            <!-- PPE 固定资产号（唯一）-->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_equip_ppe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- 公司编号 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_equip_fac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- 购买时间 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_equip_buytime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- 位置 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_equip_pos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- 状态（在用 闲置 损坏 报废）-->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_equip_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- state_explane 状态说明-->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_equip_explane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- 操作人-->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_equip_op"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <!-- 编辑时间 -->
+            <com.chemlab.view.InfoDispView
+                android:id="@+id/loc_equip_edittime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

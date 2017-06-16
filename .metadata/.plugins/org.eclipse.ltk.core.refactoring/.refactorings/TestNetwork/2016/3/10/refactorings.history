@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;Send Request&apos; into R.string.send_request" description="Extracts string &apos;Send Request&apos; into R.string.send_request" file="/TestNetwork/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/TestNetwork" rplc-all-java="false" rplc-all-xml="false" sel-end="463" sel-start="437" stamp="1457176298265" tok-esc="Send Request" xml-attr-name="android:text"/>
+</session>

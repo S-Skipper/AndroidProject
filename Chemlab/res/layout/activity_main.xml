@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!-- <include layout="@layout/layout_menu" /> -->
+
+    <LinearLayout
+        android:id="@+id/content_son"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/layout_title_bar"/>
+        <FrameLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <fragment
+                android:id="@+id/news_fragment"
+                android:name="com.chemlab.fragment.NewsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <fragment
+                android:id="@+id/contact_fragment"
+                android:name="com.chemlab.fragment.ContactFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <fragment
+                android:id="@+id/function_fragment"
+                android:name="com.chemlab.fragment.SystemFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <fragment
+                android:id="@+id/personal_fragment"
+                android:name="com.chemlab.fragment.PersonalFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </FrameLayout>
+
+        <include layout="@layout/layout_radio_bar" />
+    </LinearLayout>
+
+</LinearLayout>

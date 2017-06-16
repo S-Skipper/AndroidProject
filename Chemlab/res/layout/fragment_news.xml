@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gray"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+            android:id="@+id/import_bar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#000"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            >
+            
+        </LinearLayout>
+        <include layout="@layout/layout_search_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.chemlab.view.BannerView
+                android:id="@+id/mainBanner"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="3dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+            </com.chemlab.view.BannerView>
+
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_corners"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingRight="10dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="新闻消息"
+                        android:textSize="17sp" />
+
+                    <ImageView
+                        android:id="@+id/news_update"
+                        android:layout_width="23dp"
+                        android:layout_height="23dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/icon_news_update" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#ccc"
+                    android:gravity="center_horizontal" />
+
+                <ListView
+                    android:id="@+id/news_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:divider="@drawable/transparent"
+                    android:footerDividersEnabled="false"
+                    android:padding="5dp" >
+                </ListView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="3dp"
+                    android:background="#ccc"
+                    android:gravity="center_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/bg_corners" >
+
+                    <TextView
+                        android:id="@+id/view_other_news"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:background="@drawable/bg_user_info"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="10dp"
+                        android:text="换一批" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#ccc" />
+
+                    <TextView
+                        android:id="@+id/view_all_news"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:clickable="true"
+                        android:background="@drawable/bg_user_info"
+                        android:paddingBottom="3dp"
+                        android:paddingRight="10dp"
+                        android:text="查看所有" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_corners"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingRight="10dp" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="最新公告"
+                        android:textSize="17sp" />
+
+                    <ImageView
+                        android:id="@+id/notice_update"
+                        android:layout_width="23dp"
+                        android:layout_height="23dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="2dp"
+                        android:src="@drawable/icon_news_update" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#ccc"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/notice_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/bbuton_warning"
+                    android:gravity="center_vertical"
+                    android:minHeight="100dp"
+                    android:padding="10dp"
+                    android:text="    最新公告:近期将会放暑假，化学楼将会关闭，请同学们注意搬迁问题！"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="3dp"
+                    android:background="#ccc"
+                    android:gravity="center_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/bg_corners" >
+
+                    <TextView
+                        android:id="@+id/view_last_notice"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:background="@drawable/bg_user_info"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="10dp"
+                        android:text="上一条" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#ccc" />
+
+                    <TextView
+                        android:id="@+id/view_all_notice"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:clickable="true"
+                        android:background="@drawable/bg_user_info"
+                        android:paddingBottom="3dp"
+                        android:paddingRight="10dp"
+                        android:text="查看所有" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jacksen.drawerlayout.demo.MainActivity" >
+
+    <item
+        android:id="@+id/action_websearch"
+        android:icon="@drawable/action_search"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_websearch"/>
+
+</menu>

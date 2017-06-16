@@ -1,0 +1,8 @@
+1457005212484	Extracts string 'Create database' into R.string.create_database
+1457005237250	Extracts string 'Add data' into R.string.add_data
+1457005325812	Extracts string 'Query data' into R.string.query_data
+1457005329921	Extracts string 'Delete data' into R.string.delete_data
+1457005334093	Extracts string 'Update data' into R.string.update_data
+1457005440968	Extracts string 'Here show the result' into R.string.hint_result
+1457012028312	Extracts string 'Replace data' into R.string.replace_data
+1457064322031	Rename type 'MyTemplate_Provider'

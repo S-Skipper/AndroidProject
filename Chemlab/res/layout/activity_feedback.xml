@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/com.chemlab">
+
+    <include layout="@layout/activity_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="@dimen/activity_margin_top"
+        android:paddingBottom="@dimen/activity_margin_top"
+        android:layout_weight="1" >
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/fb_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:hint="您的邮箱，便于我们回复"
+            bootstrapbutton:be_roundedCorners="false"
+            bootstrapbutton:be_state="warning" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/fb_suggestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="您的建议"
+            android:minLines="6"
+            android:maxLines="10"
+            android:gravity="top"
+            android:layout_below="@id/fb_email"
+            bootstrapbutton:be_roundedCorners="false"
+            bootstrapbutton:be_state="danger" />
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/fb_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:text="提交"
+            bootstrapbutton:bb_text_gravity="center"
+            bootstrapbutton:bb_roundedCorners="true"
+            bootstrapbutton:bb_type="success" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<reversegeocode timestamp='Sun, 06 Mar 16 09:48:53 +0000' attribution='Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright' querystring='format=xml&amp;lat=22.349582&amp;lon=113.595504&amp;addressdetails=1'>
+	<result place_id="132316702" osm_type="way" osm_id="323627887" ref="情侶北路" lat="22.3539631" lon="113.6070978">
+		情侶北路, 唐家湾, 后环渔村, 香洲区, 珠海市, 广东省, 中国
+	</result>
+	<addressparts>
+		<road>情侶北路</road>
+		<suburb>香洲区</suburb>
+		<village>后环渔村</village>
+		<state_district>珠海市</state_district>
+		<state>广东省</state>
+		<country>中国</country>
+		<country_code>cn</country_code>
+	</addressparts>
+</reversegeocode>

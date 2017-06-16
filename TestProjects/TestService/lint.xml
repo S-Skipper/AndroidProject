@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/dtt/service/MyService.java" />
+    </issue>
+    <issue id="HandlerLeak">
+        <ignore path="src/com/dtt/ThreadActivity.java" />
+        <ignore path="src/com/dtt/service/ThreadActivity.java" />
+    </issue>
+</lint>
